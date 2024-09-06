@@ -1,4 +1,4 @@
-# Rust Dynamic Installation Demo
+# Binary Dynamic Installation
 
 This project, **rust_dynamic_installation**, demonstrates how to dynamically install and manage multiple versions of binary dependencies from different Git repositories and specific commit hashes using a `dependencies.toml` configuration file. The project automates fetching, building, and renaming binaries during the build process, ensuring multiple versions of the same binary can coexist.
 
