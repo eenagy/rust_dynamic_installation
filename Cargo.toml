@@ -1,0 +1,17 @@
+[package]
+name = "rust_dynamic_installation"
+version = "0.1.0"
+edition = "2021"
+build = "src/build.rs"
+
+[build-dependencies]
+anyhow = "1.0.86"
+thiserror = "1.0.63"
+serde = { version = "1.0.209", features = ["derive"] }
+toml = "0.8.19"
+
+[dependencies]
+serde = { version = "1.0.209", features = ["derive"] }
+toml = "0.8.19"
+anyhow = "1.0.86"
+thiserror = "1.0.63"
